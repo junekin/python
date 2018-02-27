@@ -84,6 +84,7 @@ class Neihanspider:
 
             if self.work:
                 self.page += 1
+            # 默认爬取前20页
             if self.page >20:
                 print "按回车继续..."
                 print "输入 quit 退出"
